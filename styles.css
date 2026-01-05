@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+}
+h1{
+    color:black;
+}
+.name{
+    font-size: 40px;
+    color:rgb(9, 188, 9)
+}
+.web{
+    font-size: 40px;
+    color:rgb(9, 188, 9)
+}
+.fast{
+    font-size: 20px;
+}
+.hape-wite{
+    width: 45%;
+   float: left;
+  margin-left: 3%;
+    padding-left: 2%;
+}
+.hape-wite img{
+    width: 100%;
+}
+.bagrund-img{
+    background-image: url("image/b2.png");
+    background-repeat: no-repeat;
+}
+search{
+    height: 500px;
+}
