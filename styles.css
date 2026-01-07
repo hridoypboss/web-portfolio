@@ -3,7 +3,9 @@ body{
 }
 h1{
     font-size: 40px;
-    color:black;
+    background: -webkit-linear-gradient(45deg,  #00ff08, #00ac28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
     justify-content: center;
     text-align: left;
 }
@@ -17,20 +19,25 @@ li{
     color: hsl(0, 0%, 24%);
 }
 .name{
-    color:#1c007f
-}
-.web{
-    font-size: 50px;
-    color:#FF8C00;
-}
-.fast{
+     background: -webkit-linear-gradient(45deg,  #00ff08, #00ac28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 40px;
 }
+.web{
+     background: -webkit-linear-gradient(45deg, #FF8C00, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.fast{
+    font-size: 35px;
+}
 .hape-wite{
-    width: 43%;
-   float: left;
+  width: 43%;
+  float: left;
   margin-left: 5%;
-    padding-left: 2%;
+  padding-left: 2%;
 }
 .hape-wite img{
     width: 100%;
@@ -143,4 +150,14 @@ search{
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray
+}
+.edit{
+     background: -webkit-linear-gradient(45deg,  #00ff08, #00ac28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
